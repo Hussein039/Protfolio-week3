@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title><%= title %></title>
+      <link rel="stylesheet" href='/stylesheets/stylesheet.css'>
+      <link rel="stylesheet" href='/stylesheets/about.css'>
+      <link rel="stylesheet" href='/stylesheets/contact.css'>
+      <link rel="stylesheet" href='/stylesheets/services.css'>
+      <link rel="stylesheet" href='/stylesheets/projects.css'>
+  </head>
+  <body>
+    <div class="web-wrap">
+        <!--Header starts here-->
+        <nav>
+            <div class="logo">
+                <a href="/"><img src="/images/logo_transparent.PNG" alt="Logo Image"></a>
+            </div>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+                        <% if (title == "Home") { %>
+                            <a href="/">
+                        <% } else { %>
+                            <a class="nav-link" href="/">
+                        <% } %>            
+                             Home </a>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <% if (title == "Project") { %>
+                            <a href="/project">
+                        <% } else { %>
+                            <a class="nav-link" href="/project">
+                        <% } %>            
+                           Projects </a>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <% if (title == "About") { %>
+                            <a href="/about">
+                        <% } else { %>
+                            <a href="/about">
+                        <% } %>            
+                             About </a>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <% if (title == "services") { %>
+                            <a href="/services">
+                        <% } else { %>
+                            <a href="/services">
+                        <% } %>            
+                             Services </a>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <% if (title == "contact") { %>
+                            <a href="/contact">
+                        <% } else { %>
+                            <a href="/contact">
+                        <% } %>            
+                             Contact </a>
+                        </a>
+                      </li>
+                      
+                </ul>
+        </nav>
+    </div>
+            <!--Navigation bar ends here-->
+            <script type="text/javascript" src="/javascripts/index.js"></script>

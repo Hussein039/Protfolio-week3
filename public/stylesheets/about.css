@@ -1,0 +1,43 @@
+/*
+about.css 
+Hussein Hussein
+301017560
+09-02-2022
+*/
+
+.about-img {
+    background-image:url(../images/about-me-desk.jpg);
+    min-height: 780px;
+    background-position: center;
+    background-size: cover;
+  }
+  .about-me-container{
+      background-color: rgb(26, 35, 39);
+      border-radius: 5px;
+  }
+  .about-me-box{
+      text-align: center;
+  }
+  .about-me-box{
+      color: white;
+  }
+  .email-link a{
+      color: white;
+      text-decoration: none;
+      background-color: rgb(47, 101, 138);
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .email-link a:hover{
+      color:rgb(64, 171, 243);
+      background-color: white;
+  }
+  .about-me-container img{
+    max-width: 440px;
+    border-radius: 35px;
+    padding-bottom: 10px;
+  }
+  .personal-info{
+      padding-bottom: 15px;
+      font-size: 18px;
+  }
