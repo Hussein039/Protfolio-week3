@@ -2,7 +2,7 @@
 index.js 
 Hussein Hussein
 301017560
-09-02-2022
+19-02-2022
 */
 
 const hamburger = document.querySelector(".hamburger");

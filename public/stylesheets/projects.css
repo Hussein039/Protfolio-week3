@@ -2,7 +2,7 @@
 projects.css 
 Hussein Hussein
 301017560
-09-02-2022
+19-02-2022
 */
 
 .projects-img {
@@ -11,7 +11,7 @@ Hussein Hussein
     background-position: center;
     background-size: cover;
   }
-  .mySlides {display: none}
+  .mySlidesProject {display: none}
   img {vertical-align: middle;}
   
   /* Slideshow container */
@@ -71,7 +71,7 @@ Hussein Hussein
     top: 0;
   }
   /*image info*/
-  .mySlides .img-info{
+  .mySlidesProject .img-info{
     font-size: 25px;
     margin: 20px;
   }

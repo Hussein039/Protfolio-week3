@@ -2,7 +2,7 @@
 projects.css 
 Hussein Hussein
 301017560
-09-02-2022
+19-02-2022
 */
 
 var slideIndex = 1;
@@ -18,7 +18,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("mySlidesProject");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
